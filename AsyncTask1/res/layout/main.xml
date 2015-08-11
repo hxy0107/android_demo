@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"
+            />
+    <Button
+            android:id="@+id/download"
+            android:text="Download"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/tv"
+            android:text="progress now"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <ProgressBar
+            android:id="@+id/pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+
